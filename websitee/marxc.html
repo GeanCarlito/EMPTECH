@@ -1,0 +1,98 @@
+epal.html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crumbs & Co. | Order Now</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+            font-family: fantasy, serif; /* Apply font-family */
+            /* Remove font color */
+        }
+
+        .container {
+            position: absolute; /* Position container */
+            top: 0; /* Align container to top */
+            left: 0; /* Align container to left */
+            width: 100%; /* Set container width to full viewport width */
+            text-align: center; /* Center-align content within container */
+            padding: 20px; /* Add padding to container */
+        }
+
+        .next {
+            font-size: 35px;
+            margin-top: 10px; /* Increased top margin to raise the text */
+            color: #F9DACC; /* Set text color to #F9DACC */
+        }
+
+        .images-container {
+            position: absolute; /* Position images container */
+            top: 0; /* Align images container to top */
+            left: 0; /* Align images container to left */
+            padding: 20px; /* Add padding to images container */
+        }
+
+        .image {
+            display: inline-block; /* Display images in a line */
+            margin-right: 10px; /* Add right margin between images */
+            vertical-align: top; /* Align images to the top */
+            width: 54px; /* Set image width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .company-name {
+            position: absolute; /* Position company name */
+            top: calc(25% - 25px); /* Position 50 pixels above 'Next' */
+            left: 50%; /* Center company name horizontally */
+            transform: translateX(-50%); /* Center company name horizontally */
+            font-size: 70px;
+            color: #9F332E; /* Set text color to #9F332E */
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Lighter shadow effect */
+            opacity: 0; /* Initial opacity set to 0 */
+            transition: opacity 1s ease-in-out; /* Add transition effect */
+        }
+
+        .company-name.visible {
+            opacity: 1; /* Set opacity to 1 when visible class is added */
+        }
+    </style>
+</head>
+
+<body background="C:\Users\pc\Desktop\WEBSITEE\home.png">
+
+    <div class="container">
+        <a href="https://www.youtube.com/watch?v=hJxaVD6eAtc">
+            <p class="next">Order Now</p>
+        </a>
+    </div>
+
+    <div class="images-container">
+        <a href="https://www.facebook.com/profile.php?id=61558762826024">
+            <img class="image" src="C:\Users\pc\Desktop\WEBSITEE\fb.jpg" alt="Facebook">
+        </a>
+        <a href="https://youtube.com/@CRUMBS.CO6?si=jkqFF_qKR7osuL9V">
+            <img class="image" src="C:\Users\pc\Desktop\WEBSITEE\yt.jpg" alt="YouTube">
+        </a>
+        <a href="https://www.instagram.com/crumbsandco_buynow?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            <img class="image" src="C:\Users\pc\Desktop\WEBSITEE\inst.jpg" alt="Instagram">
+        </a>
+    </div>
+
+    <p class="company-name">CRUMBS & CO.</p>
+
+    <script>
+        // Add visible class to the company-name element after a delay
+        setTimeout(function () {
+            document.querySelector('.company-name').classList.add('visible');
+        }, 1000); // 1000 milliseconds delay
+    </script>
+
+</body>
+
+</html>
