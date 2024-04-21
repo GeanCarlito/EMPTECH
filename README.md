@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -66,7 +67,7 @@
         /* First section styles */
         .first-section {
             height: 100vh; /* Set height to full viewport height */
-            background-image: url("file:///C:/Users/63955/Desktop/websitee/webpage.png"); /* Set background image */
+            background-image: url("webpage.png"); /* Set background image */
             background-size: cover; /* Ensure entire image covers the viewport */
             background-repeat: no-repeat; /* Disable background image repetition */
             background-position: center; /* Center the background image */
@@ -81,7 +82,7 @@
         /* Second section styles */
         .second-section {
             height: 100vh; /* Set height to full viewport height */
-            background-image: url("file:///C:/Users/63955/Desktop/websitee/webpage.png"); /* Set background image */
+            background-image: url("webpage.png"); /* Set background image */
             background-size: cover; /* Ensure entire image covers the viewport */
             background-repeat: no-repeat; /* Disable background image repetition */
             background-position: center; /* Center the background image */
@@ -105,13 +106,13 @@
 
     <div class="images-container">
         <a href="https://www.facebook.com/profile.php?id=61558762826024">
-            <img class="image" src="C:\Users\63955\Desktop\websitee\fb.png" alt="Facebook">
+            <img class="image" src="fb.png" alt="Facebook">
         </a>
         <a href="https://youtube.com/@CRUMBS.CO6?si=jkqFF_qKR7osuL9V">
-            <img class="image" src="C:\Users\63955\Desktop\websitee\yt.png" alt="YouTube">
+            <img class="image" src="yt.png" alt="YouTube">
         </a>
         <a href="https://www.instagram.com/crumbsandco_buynow?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-            <img class="image" src="C:\Users\63955\Desktop\websitee\insta.png" alt="Instagram">
+            <img class="image" src="insta.png" alt="Instagram">
         </a>
         
     </div>
